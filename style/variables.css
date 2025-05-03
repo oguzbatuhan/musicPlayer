@@ -1,0 +1,36 @@
+/* :root içinde renk, font, spacing gibi değişkenler */
+
+/* color */
+:root {
+  --black: #0000;
+  --white: #fff;
+  --danger: #d32f2f;
+  --Beige: #f3f3e0;
+  --blue: #27548a;
+  --dark-blue: #183b4e;
+  --golden: #dda853;
+}
+
+/* font */
+:root {
+  --font-small: 14px;
+  --font-base: 16px;
+  --font-large: 24px;
+  --font-x-large: 32px;
+  --font-xx-large: 40px;
+}
+
+/* spacing */
+:root {
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+}
+
+/* border radius */
+:root {
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+}

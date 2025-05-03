@@ -1,0 +1,46 @@
+/* Navbar ve header stilleri */
+
+.nav-bar {
+  position: fixed;
+  width: 100vw;
+  height: 45px;
+  padding: var(--spacing-md);
+  align-items: center;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.nav-bar-left {
+  min-width: 200px;
+}
+
+.nav-bar-right {
+}
+
+.nav-bar-main {
+  width: 60%;
+  text-align: center;
+  position: relative;
+}
+
+.nav-bar_text {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-large);
+  cursor: pointer;
+}
+
+.nav-bar_search input {
+  font-size: var(--font-base);
+  width: 100%;
+  height: 35px;
+  padding: 0 40px 0 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.nav-bar_search i {
+  position: absolute;
+  right: 5px;
+  color: var(--blue);
+}

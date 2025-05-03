@@ -1,0 +1,30 @@
+# node_modules (npm paketleri, gereksiz ve büyük)
+node_modules/
+
+# build dosyaları (derlenmiş, otomatik oluşan şeyler)
+dist/
+build/
+
+# sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# environment config dosyaları
+.env
+.env.local
+.env.*.local
+
+# log dosyaları
+*.log
+
+# IDE/editor dosyaları
+.vscode/
+.idea/
+
+# cache ve geçici dosyalar
+*.cache
+*.tmp
+*.bak
+
+# OS klasörleri
+__MACOSX/

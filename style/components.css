@@ -1,0 +1,26 @@
+/* Kartlar, modallar, ikonlar vs. özel bileşenler */
+
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white);
+}
+a:hover {
+  opacity: 50%;
+}
+
+i {
+  cursor: pointer;
+  font-size: var(--font-large);
+  margin: var(--spacing-xs);
+}
+i:hover {
+  opacity: 50%;
+}
