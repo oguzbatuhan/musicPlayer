@@ -1,5 +1,13 @@
 /* ana sayfa side bar */
 
-.aside {
+.aside-bar {
   z-index: 4;
+  width: 60px;
+  height: 100vh;
+  background-color: var(--white);
+  padding: var(--spacing-sm);
+}
+
+.aside-bar_icons i {
+  color: var(--blue);
 }

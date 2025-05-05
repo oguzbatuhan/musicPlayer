@@ -21,3 +21,16 @@
   align-items: center;
   gap: 10px;
 }
+
+/* header aside bar */
+.aside-bar {
+  position: fixed;
+  top: 45px;
+  left: 0;
+}
+.aside-bar_icons ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
