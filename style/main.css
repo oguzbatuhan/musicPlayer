@@ -8,5 +8,6 @@
 @import url("layout.css");
 @import url("main-style.css");
 @import url("reset.css");
-@import url("sidebar.css");
+@import url("aside.css");
 @import url("variables.css");
+@import url("player-bar.css");

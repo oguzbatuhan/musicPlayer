@@ -1,0 +1,20 @@
+/* player bar */
+
+.player-bar {
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100vw;
+  background-color: var(--blue);
+  padding: var(--spacing-md);
+  color: var(--white);
+}
+
+.player-bar_music-info_img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}

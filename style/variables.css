@@ -26,6 +26,8 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
+  --spacing-x-lg: 64px;
+  --spacing-xx-lg: 128px;
 }
 
 /* border radius */

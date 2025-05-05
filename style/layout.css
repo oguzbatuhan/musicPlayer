@@ -9,3 +9,15 @@
 .nav-bar-left {
   display: flex;
 }
+
+/* header player-bar layout  */
+.player-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.player-bar_music-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
