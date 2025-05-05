@@ -1,1 +1,18 @@
 /* Buton tasarımları */
+
+.btn {
+  padding: 5px 10px 5px 10px;
+  font-size: var(--spacing-md);
+}
+
+.btn-filter {
+  color: var(--blue);
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.btn-filter:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}

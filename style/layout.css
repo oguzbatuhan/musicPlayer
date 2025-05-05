@@ -1,5 +1,9 @@
 /* Sayfa yapısı (grid, flex container'lar vs.) */
 
+body {
+  position: relative;
+}
+
 /* header nav bar layout */
 .nav-bar {
   display: flex;
@@ -24,6 +28,7 @@
 
 /* header aside bar */
 .aside-bar {
+  display: flex;
   position: fixed;
   top: 45px;
   left: 0;
@@ -33,4 +38,30 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+
+/* main */
+.main {
+  position: absolute;
+  top: 45px;
+  left: 60px;
+}
+
+.main-music_favori-header {
+  display: flex;
+  gap: 10px;
+}
+
+.main-music_favori .carts {
+  display: flex;
+  gap: 20px;
+}
+
+.main-star {
+  display: flex;
+  gap: 20px;
+}
+
+.yt-video ul {
+  gap: 20px;
 }

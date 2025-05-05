@@ -13,7 +13,7 @@ a {
   color: var(--white);
 }
 a:hover {
-  opacity: 50%;
+  opacity: 80%;
 }
 
 i {
@@ -23,4 +23,13 @@ i {
 }
 i:hover {
   opacity: 50%;
+}
+
+.padding-bottom {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.margin-bottom {
+  width: 100%;
+  margin-bottom: 50px;
 }

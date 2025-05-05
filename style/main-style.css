@@ -1,1 +1,61 @@
 /* Ana sayfa main içeriği sitil bilgileri */
+
+.main {
+  width: calc(100% - 60px);
+  height: 100%;
+  padding: 20px 40px 20px 40px;
+  color: var(--blue);
+  margin-bottom: 60px;
+}
+
+.main_filter-buttons ul li {
+  margin-right: 10px;
+}
+
+.main-music_favori {
+  padding-top: 20px;
+}
+
+.main-music_favori-header img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.main-music_favori-header div a {
+  color: var(--dark-blue);
+}
+
+.main-music_favori .carts .card .card-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.main-music_favori .carts .card .card-body a {
+  color: var(--dark-blue);
+  font-size: var(--spacing-sm-x);
+}
+.main-music_favori .carts .card .card-body p {
+  font-size: var(--spacing-md);
+}
+
+.main-star div ul {
+  text-align: center;
+}
+
+.main-star div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.main-star div a {
+  display: block;
+  color: var(--dark-blue);
+  font-weight: 500;
+}
